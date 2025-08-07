@@ -18,7 +18,7 @@ dynamic = ["version"]
 source = "vcs"
 
 [tool.hatch.build.targets.sdist]
-include = ["captioned-image-dataset-loader/**", "README.md"]
+include = ["captioned_image_dataset_loader/**", "README.md"]
 
 [tool.hatch.build.targets.wheel]
-include = ["captioned-image-dataset-loader/**"]
+include = ["captioned_image_dataset_loader/**"]
