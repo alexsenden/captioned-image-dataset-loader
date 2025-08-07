@@ -39,12 +39,12 @@ _Output Dataset:_
 | ...            | ...            | ...         |
 | image_1001.png | image_1001.txt | subdir2     |
 
-### Running
+### Installation and Usage
 
-First, install the required packages:
+First, install the package from PyPI:
 
 ```
-pip install -r requirements.txt
+pip install captioned-image-dataset-loader
 ```
 
 Datasets can then be loaded using the following:
