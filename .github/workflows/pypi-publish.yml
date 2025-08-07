@@ -22,11 +22,6 @@ jobs:
           hatch
           hatch-vcs
           --user
-      - name: Install pypa/build
-        run: >-
-          python3 -m
-          pip install
-          --user
       - name: Build a binary wheel and a source tarball
         run: python3 -m hatch build
       - name: Store the distribution packages
